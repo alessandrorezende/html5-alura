@@ -9,6 +9,11 @@ h1, h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
+h2 {
+    font-size: 30px;
+		clear:both; /*retira fload da direita e esquerda*/
+}
+
 main h1 {
 	text-align: center;
 	background-color: #851944;
@@ -16,6 +21,7 @@ main h1 {
 	padding: 25px;
 	border-bottom: 10px solid black;
 	font-size: 60px;
+	text-transform:uppercase;
 }
 
 p {
@@ -31,22 +37,20 @@ blockquote {
 	margin: 20px 40px;
 }
 
+.comentario-fiat{
+	float: left;  /*ocupa a esquerda*/
+}
+
+.comentario-petrobras{
+	float: right; /*ocupa a direita*/
+}
+
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
-}
-
-footer {
-	background-color: #000;
-	color: #F2FFFC;
-}
-
-nav a {
-	color: #F2FFFC;
-}
-
-main a {
-	color: #851944;
+	text-align: center;
+  clear: right; /*retira fload da direita*/
+	box-sizing: border-box;
 }
 
 aside a {
@@ -63,14 +67,35 @@ blockquote, aside, footer {
     padding: 20px;
 }
 
+img , aside {
+	width: 20%; /*ocupa 20% da pagina*/
+	float: right; /*ocupa a direita*/
+}
+
+main{
+	width: 80%; /*ocupa 80% da pagina*/
+	float: left; /*ocupa a esquerda*/
+}
+
+main a {
+	color: #851944;
+}
+
 main div {
 	width: 720px;
 	margin: auto;
 	padding: 30px 0;
 }
 
-aside {
-	text-align: center;
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+	clear:  both; /*retira fload da direita e esquerda*/
+}
+
+nav a {
+	color: #F2FFFC;
+	 text-transform: lowercase;
 }
 
 strong {
@@ -81,6 +106,43 @@ em {
     font-style: italic;
 }
 
-h2 {
-    font-size: 30px;
+article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+cite {
+	font-style: italic;
+	float: right;
+	clear: both;
+}
+
+.leia-mais {
+    padding: 8px;
+    margin-bottom: 10px;
+    display: block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #E6E7E8;
+		clear:both; /*retira fload da direita e esquerda*/
+}
+
+.icones-sociais li {
+	display: inline-block;
+}
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: block;
+	text-indent: -99999px;
+}
+.github {
+	background-image: url(../img/github.png);
+}
+.twitter{
+	background-image: url(../img/twitter.png);
+}
+.linkedin {
+	background-image: url(../img/linkedin.png);
 }
