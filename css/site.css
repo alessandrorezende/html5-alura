@@ -29,22 +29,6 @@ p {
 	margin: 20px 0;
 }
 
-blockquote {
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	box-sizing: border-box;
-	margin: 20px 40px;
-}
-
-.comentario-fiat{
-	float: left;  /*ocupa a esquerda*/
-}
-
-.comentario-petrobras{
-	float: right; /*ocupa a direita*/
-}
-
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
@@ -121,28 +105,6 @@ strong {
 
 em {
     font-style: italic;
-}
-
-article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-cite {
-	font-style: italic;
-	float: right;
-	clear: both;
-}
-
-.leia-mais {
-    padding: 8px;
-    margin-bottom: 10px;
-    display: block;
-    font-size: 24px;
-    text-align: center;
-    background-color: #E6E7E8;
-		clear:both; /*retira fload da direita e esquerda*/
 }
 
 .icones-sociais li {
