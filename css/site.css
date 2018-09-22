@@ -51,6 +51,8 @@ aside {
 	text-align: center;
   clear: right; /*retira fload da direita*/
 	box-sizing: border-box;
+	position: relative;
+	top: 355px;
 }
 
 aside a {
@@ -60,21 +62,30 @@ aside a {
 
 aside h1 {
 	font-size: 30px;
-	 margin-bottom: 25px;
+	margin-bottom: 25px;
 }
 
 blockquote, aside, footer {
     padding: 20px;
 }
 
+.minha-foto{
+	width: 365px;
+}
+
 img , aside {
 	width: 20%; /*ocupa 20% da pagina*/
 	float: right; /*ocupa a direita*/
+	border: 10px solid #000;
+	box-sizing: border-box;
+	position: fixed; /*foto e menu iram flutuar pela tela juntos*/
+	right: 0;
 }
 
 main{
 	width: 80%; /*ocupa 80% da pagina*/
 	float: left; /*ocupa a esquerda*/
+	padding-bottom: 80px;
 }
 
 main a {
@@ -91,6 +102,12 @@ footer {
 	background-color: #000;
 	color: #F2FFFC;
 	clear:  both; /*retira fload da direita e esquerda*/
+}
+
+.rodape{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
 }
 
 nav a {
